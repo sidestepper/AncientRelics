@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ancientrelics",
+  "name": "Ancient Relics",
+  "description": "Once every few millennia, a mysterious, orbiting realm passes tangential to our own. An ancient people from a past cycle were the last forced to face off against its champions. They had mastered the magic within our world's crystals, and used it to devise the tools for a means to defend themselves. However, it was not enough. The ancients fell, and the realm, which had come to be called the Realm of Spirits, ascended from our own, slipping away into the unknown fabrics of a hidden universe. All evidence of its presence has long faded, leaving only the intricate artifacts of the ancients, now lost, buried and locked away in the history of their demise. Aside from the eve of the worlds known as the End, and the Nether, the eve of the Spirit Realm has now come again. Its tendrils descending to our world, and unseen forces of magic weaving their way back into our reality. The proof is found in the crystals, which after generations of dormancy, have awoken with the power the ancients had used, and which now we are forced to use.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Justin Macanufo"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
