@@ -7,6 +7,7 @@ import java.util.Random;
 
 
 
+
 import com.ancientrelics.AncientRelics;
 
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -33,6 +34,9 @@ public class BiomeGenAncient extends BiomeGenBase
     {
         super(id);
         //BiomeGenBase.getBiomeGenArray()[id] = this;
+        
+        //this.topBlock = AncientRelics.Block_HiddenArtifactGrassOre;
+        //this.fillerBlock = Blocks.dirt;
         
         this.theBiomeDecorator.treesPerChunk = 2;
         this.theBiomeDecorator.flowersPerChunk = 1;
@@ -67,6 +71,17 @@ public class BiomeGenAncient extends BiomeGenBase
         return AncientRelics.WorldGen_Ancient;
     }
 
+    public String func_150572_a(Random p_150572_1_, int p_150572_2_, int p_150572_3_, int p_150572_4_)
+    {
+    	int r = p_150572_1_.nextInt(3);
+    	if(r == 0)
+    		return BlockFlower.field_149859_a[1];
+    	else if(r == 1)
+    		return BlockFlower.field_149859_a[2];
+    	else
+    		return BlockFlower.field_149859_a[8];
+    }
+    
     public void genTerrainBlocks(World p_150573_1_, Random p_150573_2_, Block[] p_150573_3_, byte[] p_150573_4_, int p_150573_5_, int p_150573_6_, double p_150573_7_)
     {
         double d1 = plantNoise.func_151601_a((double)p_150573_5_ * 0.25D, (double)p_150573_6_ * 0.25D);

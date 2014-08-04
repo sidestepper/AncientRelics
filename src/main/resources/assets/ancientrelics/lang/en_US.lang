@@ -1,6 +1,12 @@
 tile.AncientCrystalOre.name=Ancient Crystal Ore
+tile.HiddenArtifactDirtOre.name=Ancient Dirt
+tile.HiddenArtifactGrassOre.name=Ancient Grass Block
+tile.HiddenArtifactStoneOre.name=Stone
 tile.AshleafLog.name=Ashleaf Wood
 tile.AshleafPlanks.name=Ashleaf Planks
 tile.AshleafLeaves.name=Ashy Leaves
 tile.AshleafSapling.name=Ashleaf Sapling 
 item.AncientCrystalDust.name=Ancient Crystal Dust
+item.CrystallineIngot.name=Crystalline Ingot
+item.CrystallineBlend.name=Crystalline Blend
+item.InfusedCrystallineBlend=Infused Crystalline Blend

@@ -35,6 +35,7 @@ public class BlockAshleafLeaves extends BlockLeaves
 		super();
 		
 		field_150121_P = true;
+		setLightLevel(5.0F);
 		
 		setBlockName("AshleafLeaves");
 		setBlockTextureName(Utilities.MODID + ":leaves");
